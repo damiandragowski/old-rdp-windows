@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Compression", "Compression\Compression.vcproj", "{0C65AEE6-8ECF-4DC7-9273-DFB384B39A9F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hook", "hook\hook.vcproj", "{7F1FBA71-7B23-4D6C-9179-0292B46232A1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RDLib", "RDLib\RDLib.vcproj", "{423F5F6C-7D3E-463A-A3C0-2FCC4E0937FE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RDCrypt", "RDCrypt\RDCrypt.vcproj", "{2D4CDD2A-9B71-4432-B470-4D34FF180614}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RDClient", "RDClient\RDClient.vcproj", "{44DB8886-613B-4347-AB12-ED2B8C7101B0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RDServer", "RDServer\RDServer.vcproj", "{70240E59-A3D4-4AFB-BBCC-662E30BFD666}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0C65AEE6-8ECF-4DC7-9273-DFB384B39A9F}.Debug.ActiveCfg = Debug|Win32
+		{0C65AEE6-8ECF-4DC7-9273-DFB384B39A9F}.Debug.Build.0 = Debug|Win32
+		{0C65AEE6-8ECF-4DC7-9273-DFB384B39A9F}.Release.ActiveCfg = Release|Win32
+		{0C65AEE6-8ECF-4DC7-9273-DFB384B39A9F}.Release.Build.0 = Release|Win32
+		{7F1FBA71-7B23-4D6C-9179-0292B46232A1}.Debug.ActiveCfg = Debug|Win32
+		{7F1FBA71-7B23-4D6C-9179-0292B46232A1}.Debug.Build.0 = Debug|Win32
+		{7F1FBA71-7B23-4D6C-9179-0292B46232A1}.Release.ActiveCfg = Release|Win32
+		{7F1FBA71-7B23-4D6C-9179-0292B46232A1}.Release.Build.0 = Release|Win32
+		{423F5F6C-7D3E-463A-A3C0-2FCC4E0937FE}.Debug.ActiveCfg = Debug|Win32
+		{423F5F6C-7D3E-463A-A3C0-2FCC4E0937FE}.Debug.Build.0 = Debug|Win32
+		{423F5F6C-7D3E-463A-A3C0-2FCC4E0937FE}.Release.ActiveCfg = Release|Win32
+		{423F5F6C-7D3E-463A-A3C0-2FCC4E0937FE}.Release.Build.0 = Release|Win32
+		{2D4CDD2A-9B71-4432-B470-4D34FF180614}.Debug.ActiveCfg = Debug|Win32
+		{2D4CDD2A-9B71-4432-B470-4D34FF180614}.Debug.Build.0 = Debug|Win32
+		{2D4CDD2A-9B71-4432-B470-4D34FF180614}.Release.ActiveCfg = Release|Win32
+		{2D4CDD2A-9B71-4432-B470-4D34FF180614}.Release.Build.0 = Release|Win32
+		{44DB8886-613B-4347-AB12-ED2B8C7101B0}.Debug.ActiveCfg = Debug|Win32
+		{44DB8886-613B-4347-AB12-ED2B8C7101B0}.Debug.Build.0 = Debug|Win32
+		{44DB8886-613B-4347-AB12-ED2B8C7101B0}.Release.ActiveCfg = Release|Win32
+		{44DB8886-613B-4347-AB12-ED2B8C7101B0}.Release.Build.0 = Release|Win32
+		{70240E59-A3D4-4AFB-BBCC-662E30BFD666}.Debug.ActiveCfg = Debug|Win32
+		{70240E59-A3D4-4AFB-BBCC-662E30BFD666}.Debug.Build.0 = Debug|Win32
+		{70240E59-A3D4-4AFB-BBCC-662E30BFD666}.Release.ActiveCfg = Release|Win32
+		{70240E59-A3D4-4AFB-BBCC-662E30BFD666}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

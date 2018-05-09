@@ -1,0 +1,198 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+#ifdef _WIN32
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_RDSERVER            ICON                    "RDServer.ico"
+IDI_SMALL               ICON                    "small.ico"
+IDI_TRAY                ICON                    "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDM_MENU MENU 
+BEGIN
+    POPUP "empty"
+    BEGIN
+        MENUITEM "Connect to proxy",            ID_EMPTY_CONNECTTOPROXY
+        MENUITEM "Listen for client",           ID_EMPTY_LISTENFORCLIENT
+        MENUITEM SEPARATOR
+        MENUITEM "Settings",                    ID_EMPTY_SETTINGS
+        MENUITEM "Information",                 ID_EMPTY_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "Exit Remote Desktop",         ID_EMPTY_CLOSEREMOTEDESKTOP
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_RDSERVER ACCELERATORS 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 22, 17, 186, 84
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "Information"
+FONT 8, "System", 0, 0, 0x0
+BEGIN
+    ICON            IDI_RDSERVER,IDC_RDSERVER,14,9,20,20
+    LTEXT           "Remote Desktop Server Version 1.0",IDC_STATIC,45,10,119,
+                    8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2004",IDC_STATIC,45,32,119,8
+    DEFPUSHBUTTON   "OK",IDOK,70,56,30,11,WS_GROUP
+    LTEXT           "Damian Dragowski",IDC_STATIC,45,21,62,8
+END
+
+IDD_PROPERT DIALOGEX 0, 0, 162, 198
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | 
+    WS_CAPTION
+EXSTYLE WS_EX_TOPMOST
+CAPTION "properties"
+FONT 10, "Microsoft Sans Serif", 400, 0, 0xEE
+BEGIN
+    EDITTEXT        IDC_EDIT1,67,17,78,12,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,67,36,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "uncompress",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,15,60,74,10
+    CONTROL         "raw data",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,16,105,42,10
+    CONTROL         "Pool console",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,146,56,10
+    CONTROL         "Behin NAT or Firewall",IDC_CHECK4,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,160,118,10
+    CONTROL         "Pool Fullscreen",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,70,146,63,10
+    DEFPUSHBUTTON   "OK",IDOK,23,177,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,84,177,50,14
+    LTEXT           "Set password:",IDC_STATIC,14,20,44,8
+    GROUPBOX        "Compression",IDC_STATIC,7,49,148,40
+    CONTROL         "zip compression",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,15,72,65,10
+    GROUPBOX        "Encryption",IDC_STATIC,7,93,148,46
+    CONTROL         "AES encryption",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,16,118,62,10
+    LTEXT           "port number:",IDC_STATIC,14,37,38,8
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 75
+    END
+
+    IDD_PROPERT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 155
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "RDServer"
+    IDC_APP_NAME            "Remote Desktop Server"
+    IDC_TIP                 "Remote Desktop Server"
+    IDC_RDSERVER            "RDSERVER"
+END
+
+#endif    // Polish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
